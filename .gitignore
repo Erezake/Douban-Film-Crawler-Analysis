@@ -8,3 +8,7 @@ __pycache__/
 
 # 忽略系统文件
 .DS_Store
+
+# 忽略本地IDE配置
+.vscode/
+.idea/
