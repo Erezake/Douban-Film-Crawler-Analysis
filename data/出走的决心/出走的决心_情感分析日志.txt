@@ -1,0 +1,23 @@
+电影《出走的决心》评论分析日志
+==================================================
+已读取短评文件：data\出走的决心\short_reviews.json，共 1200 条
+已读取长评文件：data\出走的决心\long_reviews.json，共 99 条
+警告：未找到小红书评论文件 data\出走的决心\xhs_comments.csv，将跳过
+警告：未找到小红书内容文件 data\出走的决心\xhs_contents.csv，将跳过
+
+合并完成！共 1299 条有效评论（已去重），已保存到 data\出走的决心\all_comments.json
+
+开始情感与主题词分析：电影《出走的决心》
+已加载停用词文件：stopwords.txt
+Loading model cost 3.941317 seconds.
+Prefix dict has been built succesfully.
+
+情感分析结果 CSV 已保存：data\出走的决心\comment_sentiment.csv
+negative 评论: 790 条，占比 60.82%
+positive 评论: 509 条，占比 39.18%
+
+开始提取主题关键词...
+主题词频 CSV 已保存：data\出走的决心\comment_keywords.csv
+主题词柱状图已保存：data\出走的决心\comment_keywords.png
+
+评论分析全部完成！

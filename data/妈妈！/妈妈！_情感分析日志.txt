@@ -1,0 +1,23 @@
+电影《妈妈！》评论分析日志
+==================================================
+已读取短评文件：data\妈妈！\short_reviews.json，共 1200 条
+已读取长评文件：data\妈妈！\long_reviews.json，共 98 条
+警告：未找到小红书评论文件 data\妈妈！\xhs_comments.csv，将跳过
+警告：未找到小红书内容文件 data\妈妈！\xhs_contents.csv，将跳过
+
+合并完成！共 1297 条有效评论（已去重），已保存到 data\妈妈！\all_comments.json
+
+开始情感与主题词分析：电影《妈妈！》
+已加载停用词文件：stopwords.txt
+Loading model cost 3.408910 seconds.
+Prefix dict has been built succesfully.
+
+情感分析结果 CSV 已保存：data\妈妈！\comment_sentiment.csv
+positive 评论: 609 条，占比 46.95%
+negative 评论: 688 条，占比 53.05%
+
+开始提取主题关键词...
+主题词频 CSV 已保存：data\妈妈！\comment_keywords.csv
+主题词柱状图已保存：data\妈妈！\comment_keywords.png
+
+评论分析全部完成！

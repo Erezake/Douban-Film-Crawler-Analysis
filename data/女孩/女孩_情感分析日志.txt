@@ -1,0 +1,23 @@
+电影《女孩》评论分析日志
+==================================================
+已读取短评文件：data\女孩\short_reviews.json，共 1198 条
+已读取长评文件：data\女孩\long_reviews.json，共 100 条
+警告：未找到小红书评论文件 data\女孩\xhs_comments.csv，将跳过
+警告：未找到小红书内容文件 data\女孩\xhs_contents.csv，将跳过
+
+合并完成！共 1294 条有效评论（已去重），已保存到 data\女孩\all_comments.json
+
+开始情感与主题词分析：电影《女孩》
+已加载停用词文件：stopwords.txt
+Loading model cost 4.689909 seconds.
+Prefix dict has been built succesfully.
+
+情感分析结果 CSV 已保存：data\女孩\comment_sentiment.csv
+positive 评论: 677 条，占比 52.32%
+negative 评论: 617 条，占比 47.68%
+
+开始提取主题关键词...
+主题词频 CSV 已保存：data\女孩\comment_keywords.csv
+主题词柱状图已保存：data\女孩\comment_keywords.png
+
+评论分析全部完成！

@@ -1,0 +1,21 @@
+当前电影：春潮
+开始处理数据...
+
+豆瓣短评：1200 条
+豆瓣长评：96 条
+小红书评论：0 条
+小红书搜索内容：0 条
+
+-------- 母女关系相关评论统计 --------
+豆瓣短评相关：254
+豆瓣长评相关：88
+小红书评论相关：0
+小红书搜索结果相关：0
+
+总的母女关系相关评论：342
+--------------------------------------
+
+词频 CSV 已保存：D:\MyCode\Douban-MovieReview-Crawler\data\春潮\word_frequencies.csv
+柱状图已保存：D:\MyCode\Douban-MovieReview-Crawler\data\春潮\word_frequencies.png
+
+分析完成。日志已保存。

@@ -1,0 +1,23 @@
+电影《血观音》评论分析日志
+==================================================
+已读取短评文件：data\血观音\short_reviews.json，共 1200 条
+已读取长评文件：data\血观音\long_reviews.json，共 99 条
+已读取小红书评论CSV：data\血观音\xhs_comments.csv，共 299 条
+已读取小红书内容CSV：data\血观音\xhs_contents.csv，共 60 条
+
+合并完成！共 1640 条有效评论（已去重），已保存到 data\血观音\all_comments.json
+
+开始情感与主题词分析：电影《血观音》
+已加载停用词文件：stopwords.txt
+Loading model cost 3.991283 seconds.
+Prefix dict has been built succesfully.
+
+情感分析结果 CSV 已保存：data\血观音\comment_sentiment.csv
+negative 评论: 991 条，占比 60.46%
+positive 评论: 648 条，占比 39.54%
+
+开始提取主题关键词...
+主题词频 CSV 已保存：data\血观音\comment_keywords.csv
+主题词柱状图已保存：data\血观音\comment_keywords.png
+
+评论分析全部完成！
